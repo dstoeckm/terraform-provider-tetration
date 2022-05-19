@@ -27,9 +27,9 @@ build:
 
 cross-compile:
 	GOOS=darwin go build -i -o terraform-provider-tetration-mac
-	mv terraform-provider-tetration-mac-arm $(BIN_DIR)
-	GOOS=darwin go GOARCH=arm64 build -i -o terraform-provider-tetration-mac
 	mv terraform-provider-tetration-mac $(BIN_DIR)
+	GOOS=darwin GOARCH=arm64 go build -i -o terraform-provider-tetration-mac-arm
+	mv terraform-provider-tetration-mac-arm $(BIN_DIR)
 	GOOS=windows GOARCH=386 go build -i -o terraform-provider-tetration-win
 	mv terraform-provider-tetration-win $(BIN_DIR)
 	GOOS=linux GOARCH=amd64 go build -i -o terraform-provider-tetration-linux
