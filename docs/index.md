@@ -26,7 +26,7 @@ description: |-
 - `disable_tls_verification` (Boolean) Allow connections to Tetration endpoints without validating their TLS certificate.
 
 ### Available Docs
-* [Application](/resources/application.md)
+* [Application](/docs/resources/application.md)
 * [Filter](/resources/filter.md)
 * [Role](/resourcess/role.md)
 * [Scope](/resources/scope.md)
