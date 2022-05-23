@@ -27,9 +27,9 @@ description: |-
 
 ### Available Docs
 * [Application](/docs/resources/application.md)
-* [Filter](/resources/filter.md)
-* [Role](/resourcess/role.md)
-* [Scope](/resources/scope.md)
-* [Tag](/resources/tag.md)
-* [User](/resources/user.md)
+* [Filter](/docs/resources/filter.md)
+* [Role](/docs/resourcess/role.md)
+* [Scope](/docs/resources/scope.md)
+* [Tag](/docs/resources/tag.md)
+* [User](/docs/resources/user.md)
 
