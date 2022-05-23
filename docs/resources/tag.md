@@ -3,7 +3,7 @@
 page_title: "tetration_tag Resource - terraform-provider-ciscosecureworkload"
 subcategory: "label and annotations"
 description: |-
-  "label and annotation will be used to add more meta data to Cisco Secure Workload"
+  label and annotation will be used to add more meta data to Cisco Secure Workload
 ---
 
 # tetration_tag (Resource)
@@ -32,7 +32,7 @@ description: |-
 
 ```resource "tetration_tag" "tag" {
   tenant_name = "Here_goes_your_root_scope"
-  ip          = "${join(",", data.dns_a_record_set.rds.addrs)}" // I received the IP address from a DNS RDS database in AWS
+  ip          = "${join(",", data.dns_a_record_set.rds.addrs)}" // I received the IP address from a DNS RDS database in AWS, but can also be a plain IP address.
   attributes = {
     Environment  = "test"
     Datacenter   = "aws"
