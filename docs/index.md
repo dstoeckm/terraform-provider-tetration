@@ -26,7 +26,7 @@ description: |-
 - `disable_tls_verification` (Boolean) Allow connections to Tetration endpoints without validating their TLS certificate.
 
 ### Available Docs
-* [a relative link Application][resource/application.md]
+* ![Application][resource/application.md]
 * [Filter][https://github.com/dstoeckm/terraform-provider-tetration/blob/main/docs/resource/filter.md]
 * [Role][https://github.com/dstoeckm/terraform-provider-tetration/blob/main/docs/resources/role.md]
 * [Scope][https://github.com/dstoeckm/terraform-provider-tetration/blob/main/docs/resource/scope.md]
